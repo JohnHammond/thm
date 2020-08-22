@@ -1,0 +1,17 @@
+- Nikto v2.1.5
+---------------------------------------------------------------------------
++ Target IP:          10.10.166.14
++ Target Hostname:    10.10.166.14
++ Target Port:        80
++ Start Time:         2020-08-13 19:58:27 (GMT-4)
+---------------------------------------------------------------------------
++ Server: Apache/2.4.29 (Ubuntu)
++ The anti-clickjacking X-Frame-Options header is not present.
++ Cookie access created without the httponly flag
++ No CGI Directories found (use '-C all' to force check all possible dirs)
++ Server leaks inodes via ETags, header found with file /robots.txt, fields: 0x23 0x5a9a241823139 
++ File/dir '/zYdHuAKjP/' in robots.txt returned a non-forbidden or redirect HTTP code (200)
++ "robots.txt" contains 1 entry which should be manually viewed.
++ IP address found in the 'location' header. The IP is "127.0.1.1".
++ OSVDB-630: IIS may reveal its internal or real IP in the Location header via a request to the /images directory. The value is "http://127.0.1.1/images/".
++ DEBUG HTTP verb may show server debugging information. See http://msdn.microsoft.com/en-us/library/e8z01xdh%28VS.80%29.aspx for details.

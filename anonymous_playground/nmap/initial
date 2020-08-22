@@ -1,0 +1,20 @@
+# Nmap 7.80 scan initiated Thu Aug 13 19:58:02 2020 as: nmap -sC -sV -oN nmap/initial 10.10.166.14
+Nmap scan report for 10.10.166.14
+Host is up (0.25s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE VERSION
+22/tcp   open     ssh     OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 60:b6:ad:4c:3e:f9:d2:ec:8b:cd:3b:45:a5:ac:5f:83 (RSA)
+|   256 6f:9a:be:df:fc:95:a2:31:8f:db:e5:a2:da:8a:0c:3c (ECDSA)
+|_  256 e6:98:52:49:cf:f2:b8:65:d7:41:1c:83:2e:94:24:88 (ED25519)
+80/tcp   open     http    Apache httpd 2.4.29 ((Ubuntu))
+| http-robots.txt: 1 disallowed entry 
+|_/zYdHuAKjP
+|_http-server-header: Apache/2.4.29 (Ubuntu)
+|_http-title: Proving Grounds
+2105/tcp filtered eklogin
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Aug 13 19:58:39 2020 -- 1 IP address (1 host up) scanned in 36.58 seconds

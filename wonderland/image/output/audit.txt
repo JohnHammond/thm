@@ -1,0 +1,23 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Wed Aug 19 09:26:44 2020
+Invocation: foremost alice_door.png 
+Output directory: /home/john/ctf/thm/wonderland/image/output
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: alice_door.png
+Start: Wed Aug 19 09:26:44 2020
+Length: 1 MB (1843670 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	00000000.png 	       1 MB 	          0 	  (1962 x 1942)
+Finish: Wed Aug 19 09:26:44 2020
+
+1 FILES EXTRACTED
+	
+png:= 1
+------------------------------------------------------------------
+
+Foremost finished at Wed Aug 19 09:26:44 2020

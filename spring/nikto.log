@@ -1,0 +1,14 @@
+- Nikto v2.1.5
+---------------------------------------------------------------------------
++ Target IP:          10.10.88.239
++ Target Hostname:    10.10.88.239
++ Target Port:        80
++ Start Time:         2020-08-21 13:34:28 (GMT-4)
+---------------------------------------------------------------------------
++ Server: No banner retrieved
++ The anti-clickjacking X-Frame-Options header is not present.
++ Root page / redirects to: https://10.10.88.239/
++ No CGI Directories found (use '-C all' to force check all possible dirs)
++ Allowed HTTP Methods: GET, HEAD, POST, PUT, DELETE, OPTIONS 
++ OSVDB-397: HTTP method ('Allow' Header): 'PUT' method could allow clients to save files on the web server.
++ OSVDB-5646: HTTP method ('Allow' Header): 'DELETE' may allow clients to remove files on the web server.

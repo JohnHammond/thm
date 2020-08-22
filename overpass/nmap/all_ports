@@ -1,0 +1,10 @@
+# Nmap 7.80 scan initiated Mon Aug 17 12:26:03 2020 as: nmap -p- -oN nmap/all_ports 10.10.252.240
+Nmap scan report for 10.10.252.240
+Host is up (0.22s latency).
+Not shown: 65532 closed ports
+PORT      STATE    SERVICE
+22/tcp    open     ssh
+80/tcp    open     http
+36308/tcp filtered unknown
+
+# Nmap done at Mon Aug 17 12:51:23 2020 -- 1 IP address (1 host up) scanned in 1519.74 seconds

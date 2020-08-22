@@ -1,0 +1,16 @@
+- Nikto v2.1.5
+---------------------------------------------------------------------------
++ Target IP:          10.10.252.240
++ Target Hostname:    10.10.252.240
++ Target Port:        80
++ Start Time:         2020-08-17 12:26:36 (GMT-4)
+---------------------------------------------------------------------------
++ Server: No banner retrieved
++ The anti-clickjacking X-Frame-Options header is not present.
++ Uncommon header 'x-content-type-options' found, with contents: nosniff
++ No CGI Directories found (use '-C all' to force check all possible dirs)
++ DEBUG HTTP verb may show server debugging information. See http://msdn.microsoft.com/en-us/library/e8z01xdh%28VS.80%29.aspx for details.
++ OSVDB-3092: /admin.html: This might be interesting...
++ OSVDB-3092: /admin/: This might be interesting...
++ OSVDB-3092: /downloads/: This might be interesting...
++ OSVDB-3092: /img/: This might be interesting...

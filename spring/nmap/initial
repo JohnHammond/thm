@@ -1,0 +1,76 @@
+# Nmap 7.80 scan initiated Fri Aug 21 13:32:34 2020 as: nmap -sC -sV -oN nmap/initial -v 10.10.88.239
+Increasing send delay for 10.10.88.239 from 0 to 5 due to 54 out of 179 dropped probes since last increase.
+Nmap scan report for 10.10.88.239
+Host is up (0.23s latency).
+Not shown: 998 closed ports
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 89:a8:db:e1:3d:ab:0e:ea:da:d8:8d:a7:bc:56:fc:da (RSA)
+|   256 7d:b2:aa:19:18:31:6c:62:18:7b:3b:96:11:02:54:9d (ECDSA)
+|_  256 26:32:b9:96:69:a8:cb:14:b4:8c:e8:f0:d5:74:bd:6e (ED25519)
+80/tcp open  http
+| fingerprint-strings: 
+|   Kerberos, SMBProgNeg: 
+|     HTTP/1.1 400 
+|     Content-Type: text/html;charset=utf-8
+|     Content-Language: en
+|     Content-Length: 435
+|     Date: Fri, 21 Aug 2020 17:34:26 GMT
+|     Connection: close
+|     <!doctype html><html lang="en"><head><title>HTTP Status 400 
+|     Request</title><style type="text/css">body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 400 
+|     Request</h1></body></html>
+|   LPDString: 
+|     HTTP/1.1 400 
+|     Content-Type: text/html;charset=utf-8
+|     Content-Language: en
+|     Content-Length: 435
+|     Date: Fri, 21 Aug 2020 17:34:27 GMT
+|     Connection: close
+|     <!doctype html><html lang="en"><head><title>HTTP Status 400 
+|     Request</title><style type="text/css">body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 400 
+|_    Request</h1></body></html>
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-title: Did not follow redirect to https://10.10.88.239/
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port80-TCP:V=7.80%I=7%D=8/21%Time=5F4005A2%P=x86_64-pc-linux-gnu%r(Kerb
+SF:eros,24E,"HTTP/1\.1\x20400\x20\r\nContent-Type:\x20text/html;charset=ut
+SF:f-8\r\nContent-Language:\x20en\r\nContent-Length:\x20435\r\nDate:\x20Fr
+SF:i,\x2021\x20Aug\x202020\x2017:34:26\x20GMT\r\nConnection:\x20close\r\n\
+SF:r\n<!doctype\x20html><html\x20lang=\"en\"><head><title>HTTP\x20Status\x
+SF:20400\x20\xe2\x80\x93\x20Bad\x20Request</title><style\x20type=\"text/cs
+SF:s\">body\x20{font-family:Tahoma,Arial,sans-serif;}\x20h1,\x20h2,\x20h3,
+SF:\x20b\x20{color:white;background-color:#525D76;}\x20h1\x20{font-size:22
+SF:px;}\x20h2\x20{font-size:16px;}\x20h3\x20{font-size:14px;}\x20p\x20{fon
+SF:t-size:12px;}\x20a\x20{color:black;}\x20\.line\x20{height:1px;backgroun
+SF:d-color:#525D76;border:none;}</style></head><body><h1>HTTP\x20Status\x2
+SF:0400\x20\xe2\x80\x93\x20Bad\x20Request</h1></body></html>")%r(SMBProgNe
+SF:g,24E,"HTTP/1\.1\x20400\x20\r\nContent-Type:\x20text/html;charset=utf-8
+SF:\r\nContent-Language:\x20en\r\nContent-Length:\x20435\r\nDate:\x20Fri,\
+SF:x2021\x20Aug\x202020\x2017:34:26\x20GMT\r\nConnection:\x20close\r\n\r\n
+SF:<!doctype\x20html><html\x20lang=\"en\"><head><title>HTTP\x20Status\x204
+SF:00\x20\xe2\x80\x93\x20Bad\x20Request</title><style\x20type=\"text/css\"
+SF:>body\x20{font-family:Tahoma,Arial,sans-serif;}\x20h1,\x20h2,\x20h3,\x2
+SF:0b\x20{color:white;background-color:#525D76;}\x20h1\x20{font-size:22px;
+SF:}\x20h2\x20{font-size:16px;}\x20h3\x20{font-size:14px;}\x20p\x20{font-s
+SF:ize:12px;}\x20a\x20{color:black;}\x20\.line\x20{height:1px;background-c
+SF:olor:#525D76;border:none;}</style></head><body><h1>HTTP\x20Status\x2040
+SF:0\x20\xe2\x80\x93\x20Bad\x20Request</h1></body></html>")%r(LPDString,24
+SF:E,"HTTP/1\.1\x20400\x20\r\nContent-Type:\x20text/html;charset=utf-8\r\n
+SF:Content-Language:\x20en\r\nContent-Length:\x20435\r\nDate:\x20Fri,\x202
+SF:1\x20Aug\x202020\x2017:34:27\x20GMT\r\nConnection:\x20close\r\n\r\n<!do
+SF:ctype\x20html><html\x20lang=\"en\"><head><title>HTTP\x20Status\x20400\x
+SF:20\xe2\x80\x93\x20Bad\x20Request</title><style\x20type=\"text/css\">bod
+SF:y\x20{font-family:Tahoma,Arial,sans-serif;}\x20h1,\x20h2,\x20h3,\x20b\x
+SF:20{color:white;background-color:#525D76;}\x20h1\x20{font-size:22px;}\x2
+SF:0h2\x20{font-size:16px;}\x20h3\x20{font-size:14px;}\x20p\x20{font-size:
+SF:12px;}\x20a\x20{color:black;}\x20\.line\x20{height:1px;background-color
+SF::#525D76;border:none;}</style></head><body><h1>HTTP\x20Status\x20400\x2
+SF:0\xe2\x80\x93\x20Bad\x20Request</h1></body></html>");
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Aug 21 13:34:50 2020 -- 1 IP address (1 host up) scanned in 136.26 seconds

@@ -1,0 +1,13 @@
+- Nikto v2.1.5
+---------------------------------------------------------------------------
++ Target IP:          10.10.56.169
++ Target Hostname:    10.10.56.169
++ Target Port:        8000
++ Start Time:         2020-08-13 18:37:48 (GMT-4)
+---------------------------------------------------------------------------
++ Server: No banner retrieved
++ Retrieved x-powered-by header: PHP/7.2.32-1+ubuntu18.04.1+deb.sury.org+1
++ The anti-clickjacking X-Frame-Options header is not present.
++ Uncommon header 'x-debug-token' found, with contents: 1e61dd
++ No CGI Directories found (use '-C all' to force check all possible dirs)
++ Cookie bolt_session_93d20bb013549aa06a37cf000a4e983e created without the httponly flag
