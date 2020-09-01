@@ -1,0 +1,20 @@
+# Nmap 7.80 scan initiated Sun Aug 23 18:42:04 2020 as: nmap -v -sC -sV -oN nmap/initial 10.10.197.203
+Increasing send delay for 10.10.197.203 from 0 to 5 due to 41 out of 135 dropped probes since last increase.
+Nmap scan report for 10.10.197.203
+Host is up (0.22s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE VERSION
+80/tcp open  http    nginx 1.14.0 (Ubuntu)
+| http-git: 
+|   10.10.197.203:80/.git/
+|     Git repository found!
+|_    Repository description: Unnamed repository; edit this file 'description' to name the...
+| http-methods: 
+|_  Supported Methods: GET HEAD
+|_http-server-header: nginx/1.14.0 (Ubuntu)
+|_http-title: Super Awesome Site!
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Aug 23 18:42:45 2020 -- 1 IP address (1 host up) scanned in 40.72 seconds
