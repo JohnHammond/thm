@@ -1,0 +1,48 @@
+# Nmap 7.80 scan initiated Thu Sep  3 12:15:08 2020 as: nmap -Pn -sC -sV -oN nmap/initial 10.10.177.247
+Nmap scan report for 10.10.177.247
+Host is up (0.23s latency).
+Not shown: 987 closed ports
+PORT     STATE SERVICE       VERSION
+53/tcp   open  domain?
+| fingerprint-strings: 
+|   DNSVersionBindReqTCP: 
+|     version
+|_    bind
+80/tcp   open  http          Microsoft IIS httpd 10.0
+|_http-server-header: Microsoft-IIS/10.0
+88/tcp   open  kerberos-sec  Microsoft Windows Kerberos (server time: 2020-09-03 16:16:45Z)
+135/tcp  open  msrpc         Microsoft Windows RPC
+139/tcp  open  netbios-ssn   Microsoft Windows netbios-ssn
+389/tcp  open  ldap          Microsoft Windows Active Directory LDAP (Domain: spookysec.local0., Site: Default-First-Site-Name)
+445/tcp  open  microsoft-ds?
+464/tcp  open  kpasswd5?
+593/tcp  open  ncacn_http    Microsoft Windows RPC over HTTP 1.0
+636/tcp  open  tcpwrapped
+3268/tcp open  ldap          Microsoft Windows Active Directory LDAP (Domain: spookysec.local0., Site: Default-First-Site-Name)
+3269/tcp open  tcpwrapped
+3389/tcp open  ms-wbt-server Microsoft Terminal Services
+| ssl-cert: Subject: commonName=AttacktiveDirectory.spookysec.local
+| Issuer: commonName=AttacktiveDirectory.spookysec.local
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2020-09-02T16:11:31
+| Not valid after:  2021-03-04T16:11:31
+| MD5:   9869 e3d8 324b 8fab 03d5 a572 282b 2793
+|_SHA-1: 709d 7c7b 4bb9 bbce 5a8b 8193 a199 0004 b06f 92f0
+|_ssl-date: 2020-09-03T16:20:31+00:00; 0s from scanner time.
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port53-TCP:V=7.80%I=7%D=9/3%Time=5F5116F2%P=x86_64-pc-linux-gnu%r(DNSVe
+SF:rsionBindReqTCP,20,"\0\x1e\0\x06\x81\x04\0\x01\0\0\0\0\0\0\x07version\x
+SF:04bind\0\0\x10\0\x03");
+Service Info: Host: ATTACKTIVEDIREC; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+| smb2-security-mode: 
+|   3.00: 
+|_    Message signing enabled and required
+|_smb2-time: Protocol negotiation failed (SMB2)
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Sep  3 12:22:32 2020 -- 1 IP address (1 host up) scanned in 444.68 seconds

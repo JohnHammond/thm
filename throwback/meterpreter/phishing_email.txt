@@ -1,0 +1,11 @@
+URGENT! Update Your Cisco AnyConnect Client
+
+Good afternoon,
+
+It has been brought to the IT Department's attention that there is a new critical vulnerability (CVE-2020-34157) present in the Cisco AnyConnect client that our company uses to connect to our corporate network.
+
+For your safety and the security of our business, please download the Security Update to the Cisco AnyConnect client. This patch and remediation must be ran immediately.
+
+Very Respectfully,
+Throwbacks Hacks IT
+

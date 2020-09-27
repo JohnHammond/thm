@@ -1,0 +1,17 @@
+- Nikto v2.1.5
+---------------------------------------------------------------------------
++ Target IP:          10.10.117.181
++ Target Hostname:    10.10.117.181
++ Target Port:        80
++ Start Time:         2020-09-13 12:51:33 (GMT-4)
+---------------------------------------------------------------------------
++ Server: Apache/2.4.7 (Ubuntu)
++ Server leaks inodes via ETags, header found with file /, fields: 0x3400 0x5ab85cfdde1d0 
++ The anti-clickjacking X-Frame-Options header is not present.
++ No CGI Directories found (use '-C all' to force check all possible dirs)
++ Allowed HTTP Methods: OPTIONS, GET, HEAD, POST 
++ OSVDB-3233: /icons/README: Apache default file found.
++ 6544 items checked: 0 error(s) and 4 item(s) reported on remote host
++ End Time:           2020-09-13 13:23:23 (GMT-4) (1910 seconds)
+---------------------------------------------------------------------------
++ 1 host(s) tested

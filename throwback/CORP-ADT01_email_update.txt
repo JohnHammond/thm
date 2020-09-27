@@ -1,0 +1,27 @@
+Hey team! Hope you guys are having a good day!
+
+As all of you probably already now we are transferring to our new email service as we
+transition please use the new emails provided to you as well as the default credentials
+that can be found within your emails.
+
+Please do not use these emails outside of corporate as they contain sensitive information.
+
+The new email format is based on what department you are in:
+
+ESM-Example@TBHSecurity.com
+FIN-Example@TBHSecurity.com
+HRE-Example@TBHSecurity.com
+ITS-Example@TBHSecurity.com
+SEC-Example@TBHSecurity.com
+
+In order to access your email you will need to go to mail.corporate.local as we get our 
+servers moved over.
+
+If you do not already have mail.corporate.local set in your hosts file please reach out to
+IT to get that fixed.
+
+Please remain patient as we make this transition and please feel free to email me with any
+questions you may have regarding the new transition: HRE-KDoiser@TBHSecurity.com
+
+Karen Dosier,
+Human Relations Consulatant

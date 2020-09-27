@@ -1,0 +1,11 @@
+# Nmap 7.80 scan initiated Sun Sep  6 21:26:16 2020 as: nmap -v -sC -sV -p 445 -oN nmap/internal 10.200.24.79,10.200.24.117,10.200.24.118,10.200.24.138,10.200.24.176,10.200.24.183,10.200.24.219,10.200.24.222,10.200.24.232,10.200.24.243
+Nmap scan report for 10.200.24.79,10.200.24.117,10.200.24.118,10.200.24.138,10.200.24.176,10.200.24.183,10.200.24.219,10.200.24.222,10.200.24.232,10.200.24.243 (224.0.0.1)
+Host is up (0.00077s latency).
+rDNS record for 224.0.0.1: all-systems.mcast.net
+
+PORT    STATE  SERVICE      VERSION
+445/tcp closed microsoft-ds
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Sep  6 21:26:17 2020 -- 1 IP address (1 host up) scanned in 0.70 seconds

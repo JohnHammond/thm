@@ -1,0 +1,13 @@
+Hello Jeff Stewart, and welcome to Throwback Hacks Security!
+
+As I'm sure you've already been informed, you may not have access to your network user account for a few days while IT finishes getting everything setup. In the meantime, you're able to use the Guest Account. You can access the account with the following credentials:
+
+TBSEC_GUEST:WelcomeTBSEC1!
+
+Note: The guest account is heavily monitored and will be deactivated as soon as your account up and running!
+
+Thank you for your patience,
+
+BoJack Horseman,
+Information Technology Specailist
+TBH{19b6ca4281bbef3ee060aaf1c2eb4021}

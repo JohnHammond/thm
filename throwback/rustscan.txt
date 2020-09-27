@@ -1,0 +1,390 @@
+[1m[38;2;0;255;0m.[38;2;0;255;6m-[38;2;0;255;13m-[38;2;0;255;19m-[38;2;0;255;25m-[38;2;0;255;32m.[38;2;0;255;38m [38;2;0;255;45m.[38;2;0;255;51m-[38;2;0;255;57m.[38;2;0;255;64m [38;2;0;255;70m.[38;2;0;255;76m-[38;2;0;255;83m.[38;2;0;255;89m [38;2;0;255;96m.[38;2;0;255;102m-[38;2;0;255;108m-[38;2;0;255;115m-[38;2;0;255;121m-[38;2;0;255;127m.[38;2;0;255;134m.[38;2;0;255;140m-[38;2;0;255;147m-[38;2;0;255;153m-[38;2;0;255;159m.[38;2;0;255;166m [38;2;0;255;172m [38;2;0;255;178m.[38;2;0;255;185m-[38;2;0;255;191m-[38;2;0;255;198m-[38;2;0;255;204m-[38;2;0;255;210m.[38;2;0;255;217m [38;2;0;255;223m.[38;2;0;255;229m-[38;2;0;255;236m-[38;2;0;255;242m-[38;2;0;255;249m.[38;2;0;255;255m [38;2;0;249;255m [38;2;0;242;255m [38;2;0;236;255m.[38;2;0;230;255m-[38;2;0;223;255m-[38;2;0;217;255m.[38;2;0;210;255m [38;2;0;204;255m [38;2;0;198;255m.[38;2;0;191;255m-[38;2;0;185;255m.[38;2;0;179;255m [38;2;0;172;255m.[38;2;0;166;255m-[38;2;0;159;255m.[0m
+[38;2;0;255;0m|[38;2;0;255;6m [38;2;0;255;13m{[38;2;0;255;19m}[38;2;0;255;25m [38;2;0;255;32m [38;2;0;255;38m}[38;2;0;255;45m|[38;2;0;255;51m [38;2;0;255;57m{[38;2;0;255;64m [38;2;0;255;70m}[38;2;0;255;76m [38;2;0;255;83m|[38;2;0;255;89m{[38;2;0;255;96m [38;2;0;255;102m{[38;2;0;255;108m_[38;2;0;255;115m_[38;2;0;255;121m [38;2;0;255;127m{[38;2;0;255;134m_[38;2;0;255;140m [38;2;0;255;147m [38;2;0;255;153m [38;2;0;255;159m_[38;2;0;255;166m}[38;2;0;255;172m{[38;2;0;255;178m [38;2;0;255;185m{[38;2;0;255;191m_[38;2;0;255;198m_[38;2;0;255;204m [38;2;0;255;210m [38;2;0;255;217m/[38;2;0;255;223m [38;2;0;255;229m [38;2;0;255;236m_[38;2;0;255;242m_[38;2;0;255;249m_[38;2;0;255;255m}[38;2;0;249;255m [38;2;0;242;255m/[38;2;0;236;255m [38;2;0;230;255m{[38;2;0;223;255m}[38;2;0;217;255m [38;2;0;210;255m\[38;2;0;204;255m [38;2;0;198;255m|[38;2;0;191;255m [38;2;0;185;255m [38;2;0;179;255m`[38;2;0;172;255m|[38;2;0;166;255m [38;2;0;159;255m|[0m
+[38;2;0;255;0m|[38;2;0;255;6m [38;2;0;255;13m.[38;2;0;255;19m-[38;2;0;255;25m.[38;2;0;255;32m [38;2;0;255;38m\[38;2;0;255;45m|[38;2;0;255;51m [38;2;0;255;57m{[38;2;0;255;64m_[38;2;0;255;70m}[38;2;0;255;76m [38;2;0;255;83m|[38;2;0;255;89m.[38;2;0;255;96m-[38;2;0;255;102m.[38;2;0;255;108m_[38;2;0;255;115m}[38;2;0;255;121m [38;2;0;255;127m}[38;2;0;255;134m [38;2;0;255;140m|[38;2;0;255;147m [38;2;0;255;153m|[38;2;0;255;159m [38;2;0;255;166m [38;2;0;255;172m.[38;2;0;255;178m-[38;2;0;255;185m.[38;2;0;255;191m_[38;2;0;255;198m}[38;2;0;255;204m [38;2;0;255;210m}[38;2;0;255;217m\[38;2;0;255;223m [38;2;0;255;229m [38;2;0;255;236m [38;2;0;255;242m [38;2;0;255;249m [38;2;0;255;255m}[38;2;0;249;255m/[38;2;0;242;255m [38;2;0;236;255m [38;2;0;230;255m/[38;2;0;223;255m\[38;2;0;217;255m [38;2;0;210;255m [38;2;0;204;255m\[38;2;0;198;255m|[38;2;0;191;255m [38;2;0;185;255m|[38;2;0;179;255m\[38;2;0;172;255m [38;2;0;166;255m [38;2;0;159;255m|[0m
+[38;2;0;255;0m`[38;2;0;255;6m-[38;2;0;255;13m'[38;2;0;255;19m [38;2;0;255;25m`[38;2;0;255;32m-[38;2;0;255;38m'[38;2;0;255;45m`[38;2;0;255;51m-[38;2;0;255;57m-[38;2;0;255;64m-[38;2;0;255;70m-[38;2;0;255;76m-[38;2;0;255;83m'[38;2;0;255;89m`[38;2;0;255;96m-[38;2;0;255;102m-[38;2;0;255;108m-[38;2;0;255;115m-[38;2;0;255;121m'[38;2;0;255;127m [38;2;0;255;134m [38;2;0;255;140m`[38;2;0;255;147m-[38;2;0;255;153m'[38;2;0;255;159m [38;2;0;255;166m [38;2;0;255;172m`[38;2;0;255;178m-[38;2;0;255;185m-[38;2;0;255;191m-[38;2;0;255;198m-[38;2;0;255;204m'[38;2;0;255;210m [38;2;0;255;217m [38;2;0;255;223m`[38;2;0;255;229m-[38;2;0;255;236m-[38;2;0;255;242m-[38;2;0;255;249m'[38;2;0;255;255m [38;2;0;249;255m`[38;2;0;242;255m-[38;2;0;236;255m'[38;2;0;230;255m [38;2;0;223;255m [38;2;0;217;255m`[38;2;0;210;255m-[38;2;0;204;255m'[38;2;0;198;255m`[38;2;0;191;255m-[38;2;0;185;255m'[38;2;0;179;255m [38;2;0;172;255m`[38;2;0;166;255m-[38;2;0;159;255m'[0m
+[38;2;0;255;0mF[38;2;0;255;6ma[38;2;0;255;13ms[38;2;0;255;19mt[38;2;0;255;25me[38;2;0;255;32mr[38;2;0;255;38m [38;2;0;255;45mN[38;2;0;255;51mm[38;2;0;255;57ma[38;2;0;255;64mp[38;2;0;255;70m [38;2;0;255;76ms[38;2;0;255;83mc[38;2;0;255;89ma[38;2;0;255;96mn[38;2;0;255;102mn[38;2;0;255;108mi[38;2;0;255;115mn[38;2;0;255;121mg[38;2;0;255;127m [38;2;0;255;134mw[38;2;0;255;140mi[38;2;0;255;147mt[38;2;0;255;153mh[38;2;0;255;159m [38;2;0;255;166mR[38;2;0;255;172mu[38;2;0;255;178ms[38;2;0;255;185mt[38;2;0;255;191m.[0m[0m
+[1m[38;2;255;255;0m_[38;2;249;255;0m_[38;2;242;255;0m_[38;2;236;255;0m_[38;2;230;255;0m_[38;2;223;255;0m_[38;2;217;255;0m_[38;2;210;255;0m_[38;2;204;255;0m_[38;2;198;255;0m_[38;2;191;255;0m_[38;2;185;255;0m_[38;2;179;255;0m_[38;2;172;255;0m_[38;2;166;255;0m_[38;2;159;255;0m_[38;2;153;255;0m_[38;2;147;255;0m_[38;2;140;255;0m_[38;2;134;255;0m_[38;2;128;255;0m_[38;2;121;255;0m_[38;2;115;255;0m_[38;2;108;255;0m_[38;2;102;255;0m_[38;2;96;255;0m_[38;2;89;255;0m_[38;2;83;255;0m_[38;2;77;255;0m_[38;2;70;255;0m_[38;2;64;255;0m_[38;2;57;255;0m_[38;2;51;255;0m_[38;2;45;255;0m_[38;2;38;255;0m_[38;2;32;255;0m_[38;2;26;255;0m_[38;2;19;255;0m_[38;2;13;255;0m_[38;2;6;255;0m_[0m
+[38;2;255;255;0m:[38;2;249;255;0m [38;2;242;255;0mh[38;2;236;255;0mt[38;2;230;255;0mt[38;2;223;255;0mp[38;2;217;255;0ms[38;2;210;255;0m:[38;2;204;255;0m/[38;2;198;255;0m/[38;2;191;255;0md[38;2;185;255;0mi[38;2;179;255;0ms[38;2;172;255;0mc[38;2;166;255;0mo[38;2;159;255;0mr[38;2;153;255;0md[38;2;147;255;0m.[38;2;140;255;0mg[38;2;134;255;0mg[38;2;128;255;0m/[38;2;121;255;0mG[38;2;115;255;0mF[38;2;108;255;0mr[38;2;102;255;0mQ[38;2;96;255;0ms[38;2;89;255;0mG[38;2;83;255;0my[38;2;77;255;0m [38;2;70;255;0m [38;2;64;255;0m [38;2;57;255;0m [38;2;51;255;0m [38;2;45;255;0m [38;2;38;255;0m [38;2;32;255;0m [38;2;26;255;0m [38;2;19;255;0m [38;2;13;255;0m [38;2;6;255;0m:[0m
+[38;2;255;255;0m:[38;2;249;255;0m [38;2;242;255;0mh[38;2;236;255;0mt[38;2;230;255;0mt[38;2;223;255;0mp[38;2;217;255;0ms[38;2;210;255;0m:[38;2;204;255;0m/[38;2;198;255;0m/[38;2;191;255;0mg[38;2;185;255;0mi[38;2;179;255;0mt[38;2;172;255;0mh[38;2;166;255;0mu[38;2;159;255;0mb[38;2;153;255;0m.[38;2;147;255;0mc[38;2;140;255;0mo[38;2;134;255;0mm[38;2;128;255;0m/[38;2;121;255;0mR[38;2;115;255;0mu[38;2;108;255;0ms[38;2;102;255;0mt[38;2;96;255;0mS[38;2;89;255;0mc[38;2;83;255;0ma[38;2;77;255;0mn[38;2;70;255;0m/[38;2;64;255;0mR[38;2;57;255;0mu[38;2;51;255;0ms[38;2;45;255;0mt[38;2;38;255;0mS[38;2;32;255;0mc[38;2;26;255;0ma[38;2;19;255;0mn[38;2;13;255;0m [38;2;6;255;0m:[0m
+[38;2;255;255;0m [38;2;249;255;0m-[38;2;242;255;0m-[38;2;236;255;0m-[38;2;230;255;0m-[38;2;223;255;0m-[38;2;217;255;0m-[38;2;210;255;0m-[38;2;204;255;0m-[38;2;198;255;0m-[38;2;191;255;0m-[38;2;185;255;0m-[38;2;179;255;0m-[38;2;172;255;0m-[38;2;166;255;0m-[38;2;159;255;0m-[38;2;153;255;0m-[38;2;147;255;0m-[38;2;140;255;0m-[38;2;134;255;0m-[38;2;128;255;0m-[38;2;121;255;0m-[38;2;115;255;0m-[38;2;108;255;0m-[38;2;102;255;0m-[38;2;96;255;0m-[38;2;89;255;0m-[38;2;83;255;0m-[38;2;77;255;0m-[38;2;70;255;0m-[38;2;64;255;0m-[38;2;57;255;0m-[38;2;51;255;0m-[38;2;45;255;0m-[38;2;38;255;0m-[38;2;32;255;0m-[38;2;26;255;0m-[38;2;19;255;0m-[38;2;13;255;0m-[0m[0m
+Please contribute more quotes to our GitHub https://github.com/rustscan/rustscan
+
+[1;34m[~][0m The config file is expected to be at "/home/rustscan/.config/rustscan/config.toml"
+[1;34m[~][0m File limit higher than batch size. Can increase speed by increasing batch size '-b 1048476'.
+Open [35m10.200.24.232:22[0m
+Open [35m10.200.24.219:22[0m
+Open [35m10.200.24.138:53[0m
+Open [35m10.200.24.232:80[0m
+Open [35m10.200.24.138:80[0m
+Open [35m10.200.24.219:80[0m
+Open [35m10.200.24.219:135[0m
+Open [35m10.200.24.219:139[0m
+Open [35m10.200.24.232:143[0m
+Open [35m10.200.24.232:993[0m
+Open [35m10.200.24.219:445[0m
+Open [35m10.200.24.219:3389[0m
+Open [35m10.200.24.219:5357[0m
+Open [35m10.200.24.219:5985[0m
+Open [35m10.200.24.219:49673[0m
+Open [35m10.200.24.219:49669[0m
+Open [35m10.200.24.219:49667[0m
+[1;34m[~][0m Starting Nmap
+[1;38;2;0;255;9m[>][0m The Nmap command to be run is nmap -A -vvv -p 22,80,143,993 10.200.24.232
+
+Starting Nmap 7.80 ( https://nmap.org ) at 2020-09-06 00:43 UTC
+NSE: Loaded 151 scripts for scanning.
+NSE: Script Pre-scanning.
+NSE: Starting runlevel 1 (of 3) scan.
+Initiating NSE at 00:43
+Completed NSE at 00:43, 0.00s elapsed
+NSE: Starting runlevel 2 (of 3) scan.
+Initiating NSE at 00:43
+Completed NSE at 00:43, 0.00s elapsed
+NSE: Starting runlevel 3 (of 3) scan.
+Initiating NSE at 00:43
+Completed NSE at 00:43, 0.00s elapsed
+Initiating Ping Scan at 00:43
+Scanning 10.200.24.232 [2 ports]
+Completed Ping Scan at 00:43, 0.10s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 00:43
+Completed Parallel DNS resolution of 1 host. at 00:43, 0.02s elapsed
+DNS resolution of 1 IPs took 0.02s. Mode: Async [#: 2, OK: 0, NX: 1, DR: 0, SF: 0, TR: 1, CN: 0]
+Initiating Connect Scan at 00:43
+Scanning 10.200.24.232 [4 ports]
+Discovered open port 80/tcp on 10.200.24.232
+Discovered open port 993/tcp on 10.200.24.232
+Discovered open port 143/tcp on 10.200.24.232
+Discovered open port 22/tcp on 10.200.24.232
+Completed Connect Scan at 00:43, 0.11s elapsed (4 total ports)
+Initiating Service scan at 00:43
+Scanning 4 services on 10.200.24.232
+Completed Service scan at 00:43, 6.72s elapsed (4 services on 1 host)
+NSE: Script scanning 10.200.24.232.
+NSE: Starting runlevel 1 (of 3) scan.
+Initiating NSE at 00:43
+Completed NSE at 00:43, 3.06s elapsed
+NSE: Starting runlevel 2 (of 3) scan.
+Initiating NSE at 00:43
+Completed NSE at 00:43, 1.25s elapsed
+NSE: Starting runlevel 3 (of 3) scan.
+Initiating NSE at 00:43
+Completed NSE at 00:43, 0.00s elapsed
+Nmap scan report for 10.200.24.232
+Host is up, received syn-ack (0.10s latency).
+Scanned at 2020-09-06 00:43:48 UTC for 11s
+
+PORT    STATE SERVICE  REASON  VERSION
+22/tcp  open  ssh      syn-ack OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 67:de:3e:b7:92:10:68:f8:bc:0c:39:fa:a0:5d:4d:d2 (RSA)
+| ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDQf0wWXAqAwWs2kpQZZC5uKGIKj+/KcK4BRhT7n3PsPuBXY7E8z1kelqYFE60D4KyFhAmqw+KVnzq2U38s+HL2reZSWQ9jjvmw5P+42TMR41RN1Ll3lDEjG1bfqdPaZj1AsIqHtF4BkszcopfH2gTmoX1l4kTxG/O5ivAXmA5CCS6a0u5sMly7lIbeVgP4o2AaPqXZT8QNrguJmr41rm6xIXG2aA5TJkrzUE2muH9Pk2jflwxZW2UVAiufRqeaKM/hluEV7+MOpE405NPQukvdBq+Aw5dEMVIwXkQVJzanMgcVxjW23VsjrQw9G3zmJ46+3KnNvD+EJX2an3drzT21
+|   256 20:dc:23:50:4c:fa:56:03:8b:89:6d:77:f4:0b:35:ea (ECDSA)
+| ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBB+xu45/rWNms0ZullYHEFZE1nBbsftaB/fuJ3ZhJ/f+xyzGblL3jgKtBlBNRE/6VlxIEl6BQcr66k0E7ADccOI=
+|   256 5b:5c:ca:53:92:cb:cb:73:04:03:08:95:35:5d:f7:d8 (ED25519)
+|_ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFJUSz2SMlUISFyoVO4jupWBVID1WkyQvKApWC+b8Xnu
+80/tcp  open  http     syn-ack Apache httpd 2.4.29 ((Ubuntu))
+|_http-favicon: Unknown favicon MD5: 2D267521ED544C817FADA219E66C0CCC
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-server-header: Apache/2.4.29 (Ubuntu)
+| http-title: Throwback Hacks - Login
+|_Requested resource was src/login.php
+143/tcp open  imap     syn-ack Dovecot imapd (Ubuntu)
+|_imap-capabilities: more LITERAL+ OK STARTTLS listed Pre-login ID LOGIN-REFERRALS ENABLE capabilities IMAP4rev1 have IDLE SASL-IR post-login LOGINDISABLEDA0001
+| ssl-cert: Subject: commonName=ip-10-40-119-232.eu-west-1.compute.internal
+| Subject Alternative Name: DNS:ip-10-40-119-232.eu-west-1.compute.internal
+| Issuer: commonName=ip-10-40-119-232.eu-west-1.compute.internal
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2020-07-25T15:51:57
+| Not valid after:  2030-07-23T15:51:57
+| MD5:   adc4 c6e2 d74f d9eb ccde 96aa 5780 bb69
+| SHA-1: 93aa 5da0 3829 8ca3 aa6b f148 4f92 1ed0 c568 a942
+| -----BEGIN CERTIFICATE-----
+| MIIDPzCCAiegAwIBAgIUBi8QQ3aoaNnMf9AmYXrcOAcmLY8wDQYJKoZIhvcNAQEL
+| BQAwNjE0MDIGA1UEAwwraXAtMTAtNDAtMTE5LTIzMi5ldS13ZXN0LTEuY29tcHV0
+| ZS5pbnRlcm5hbDAeFw0yMDA3MjUxNTUxNTdaFw0zMDA3MjMxNTUxNTdaMDYxNDAy
+| BgNVBAMMK2lwLTEwLTQwLTExOS0yMzIuZXUtd2VzdC0xLmNvbXB1dGUuaW50ZXJu
+| YWwwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCaCuvWUp5MpNwjeX2z
+| IS0Nb6siOqetX9U3naF2/NLdshSs508HySiDPQSja0gk0EaGWRvtG+FY9pC94WPn
+| mUujYyydImFVpuE8SrfYrEmwWVvsOhDIQss+zw3rj3TRfb59LOkkixlKjz/oJV38
+| 7px1VnqdyRaZ58/iA1NnivQPlo8YVtMwpbg3NgDgbTEj+mMoVTZrSDVAgrpgFxzm
+| iwN2Oov4nbJ7oCXvoC8uo9nnqf0tk82ole4KNE41eNndepdiEJqo2tkC3zVKYAkV
+| zUK0TJyW3mwUAjidxWxBSbqs6UgMq/Ez4WQVHaRIDP7Fq2LXq5bPnydN53xZpyls
+| qCMpAgMBAAGjRTBDMAkGA1UdEwQCMAAwNgYDVR0RBC8wLYIraXAtMTAtNDAtMTE5
+| LTIzMi5ldS13ZXN0LTEuY29tcHV0ZS5pbnRlcm5hbDANBgkqhkiG9w0BAQsFAAOC
+| AQEAmSNKnQzOTCb7ihY5VmfANUWqU1C8Zk6G3AIxkUuwPUUaRENtrK1WH0oPFOv2
+| Ck9puvrSmFHUXJrGDkv7Mf8VjeZEPRgJ56cK4RG7HftBRQ5iWVgKFmzJVCPmTuUl
+| a05Wx+Nk47CrTrNvCOYaC4/M1xqkOHPLRVclYHy0/Vp94kw7LNc3KsENiWEWWq2D
+| /IzdXGsX0rlWiOd4d/zHeTlIbBZiHXvq9hRDZmNUC2rVwEdv025zrLJyl/32KXR+
+| OjoZWbvvjglixBZ5GH3Y1NVKTnDtESMk41a3RBDf5ulbr7g478Y3jRaFY+qm1b9b
+| 2mP+0tBehCl8b6u+ipq4CJkTuw==
+|_-----END CERTIFICATE-----
+|_ssl-date: TLS randomness does not represent time
+993/tcp open  ssl/imap syn-ack Dovecot imapd (Ubuntu)
+|_imap-capabilities: LITERAL+ OK ID listed more capabilities LOGIN-REFERRALS AUTH=PLAINA0001 ENABLE IMAP4rev1 have Pre-login SASL-IR post-login IDLE
+| ssl-cert: Subject: commonName=ip-10-40-119-232.eu-west-1.compute.internal
+| Subject Alternative Name: DNS:ip-10-40-119-232.eu-west-1.compute.internal
+| Issuer: commonName=ip-10-40-119-232.eu-west-1.compute.internal
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2020-07-25T15:51:57
+| Not valid after:  2030-07-23T15:51:57
+| MD5:   adc4 c6e2 d74f d9eb ccde 96aa 5780 bb69
+| SHA-1: 93aa 5da0 3829 8ca3 aa6b f148 4f92 1ed0 c568 a942
+| -----BEGIN CERTIFICATE-----
+| MIIDPzCCAiegAwIBAgIUBi8QQ3aoaNnMf9AmYXrcOAcmLY8wDQYJKoZIhvcNAQEL
+| BQAwNjE0MDIGA1UEAwwraXAtMTAtNDAtMTE5LTIzMi5ldS13ZXN0LTEuY29tcHV0
+| ZS5pbnRlcm5hbDAeFw0yMDA3MjUxNTUxNTdaFw0zMDA3MjMxNTUxNTdaMDYxNDAy
+| BgNVBAMMK2lwLTEwLTQwLTExOS0yMzIuZXUtd2VzdC0xLmNvbXB1dGUuaW50ZXJu
+| YWwwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCaCuvWUp5MpNwjeX2z
+| IS0Nb6siOqetX9U3naF2/NLdshSs508HySiDPQSja0gk0EaGWRvtG+FY9pC94WPn
+| mUujYyydImFVpuE8SrfYrEmwWVvsOhDIQss+zw3rj3TRfb59LOkkixlKjz/oJV38
+| 7px1VnqdyRaZ58/iA1NnivQPlo8YVtMwpbg3NgDgbTEj+mMoVTZrSDVAgrpgFxzm
+| iwN2Oov4nbJ7oCXvoC8uo9nnqf0tk82ole4KNE41eNndepdiEJqo2tkC3zVKYAkV
+| zUK0TJyW3mwUAjidxWxBSbqs6UgMq/Ez4WQVHaRIDP7Fq2LXq5bPnydN53xZpyls
+| qCMpAgMBAAGjRTBDMAkGA1UdEwQCMAAwNgYDVR0RBC8wLYIraXAtMTAtNDAtMTE5
+| LTIzMi5ldS13ZXN0LTEuY29tcHV0ZS5pbnRlcm5hbDANBgkqhkiG9w0BAQsFAAOC
+| AQEAmSNKnQzOTCb7ihY5VmfANUWqU1C8Zk6G3AIxkUuwPUUaRENtrK1WH0oPFOv2
+| Ck9puvrSmFHUXJrGDkv7Mf8VjeZEPRgJ56cK4RG7HftBRQ5iWVgKFmzJVCPmTuUl
+| a05Wx+Nk47CrTrNvCOYaC4/M1xqkOHPLRVclYHy0/Vp94kw7LNc3KsENiWEWWq2D
+| /IzdXGsX0rlWiOd4d/zHeTlIbBZiHXvq9hRDZmNUC2rVwEdv025zrLJyl/32KXR+
+| OjoZWbvvjglixBZ5GH3Y1NVKTnDtESMk41a3RBDf5ulbr7g478Y3jRaFY+qm1b9b
+| 2mP+0tBehCl8b6u+ipq4CJkTuw==
+|_-----END CERTIFICATE-----
+|_ssl-date: TLS randomness does not represent time
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+NSE: Script Post-scanning.
+NSE: Starting runlevel 1 (of 3) scan.
+Initiating NSE at 00:43
+Completed NSE at 00:43, 0.00s elapsed
+NSE: Starting runlevel 2 (of 3) scan.
+Initiating NSE at 00:43
+Completed NSE at 00:43, 0.00s elapsed
+NSE: Starting runlevel 3 (of 3) scan.
+Initiating NSE at 00:43
+Completed NSE at 00:43, 0.00s elapsed
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 12.57 seconds
+[1;34m[~][0m Starting Nmap
+[1;38;2;0;255;9m[>][0m The Nmap command to be run is nmap -A -vvv -p 22,80,135,139,445,3389,5357,5985,49673,49669,49667 10.200.24.219
+
+Starting Nmap 7.80 ( https://nmap.org ) at 2020-09-06 00:43 UTC
+NSE: Loaded 151 scripts for scanning.
+NSE: Script Pre-scanning.
+NSE: Starting runlevel 1 (of 3) scan.
+Initiating NSE at 00:44
+Completed NSE at 00:44, 0.00s elapsed
+NSE: Starting runlevel 2 (of 3) scan.
+Initiating NSE at 00:44
+Completed NSE at 00:44, 0.00s elapsed
+NSE: Starting runlevel 3 (of 3) scan.
+Initiating NSE at 00:44
+Completed NSE at 00:44, 0.00s elapsed
+Initiating Ping Scan at 00:44
+Scanning 10.200.24.219 [2 ports]
+Completed Ping Scan at 00:44, 0.10s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 00:44
+Completed Parallel DNS resolution of 1 host. at 00:44, 0.02s elapsed
+DNS resolution of 1 IPs took 0.02s. Mode: Async [#: 2, OK: 0, NX: 1, DR: 0, SF: 0, TR: 1, CN: 0]
+Initiating Connect Scan at 00:44
+Scanning 10.200.24.219 [11 ports]
+Discovered open port 135/tcp on 10.200.24.219
+Discovered open port 3389/tcp on 10.200.24.219
+Discovered open port 80/tcp on 10.200.24.219
+Discovered open port 22/tcp on 10.200.24.219
+Discovered open port 139/tcp on 10.200.24.219
+Discovered open port 49667/tcp on 10.200.24.219
+Discovered open port 49673/tcp on 10.200.24.219
+Discovered open port 445/tcp on 10.200.24.219
+Discovered open port 5357/tcp on 10.200.24.219
+Discovered open port 5985/tcp on 10.200.24.219
+Discovered open port 49669/tcp on 10.200.24.219
+Completed Connect Scan at 00:44, 0.20s elapsed (11 total ports)
+Initiating Service scan at 00:44
+Scanning 11 services on 10.200.24.219
+Completed Service scan at 00:44, 55.25s elapsed (11 services on 1 host)
+NSE: Script scanning 10.200.24.219.
+NSE: Starting runlevel 1 (of 3) scan.
+Initiating NSE at 00:44
+NSE Timing: About 99.93% done; ETC: 00:45 (0:00:00 remaining)
+Completed NSE at 00:45, 40.45s elapsed
+NSE: Starting runlevel 2 (of 3) scan.
+Initiating NSE at 00:45
+Completed NSE at 00:45, 0.56s elapsed
+NSE: Starting runlevel 3 (of 3) scan.
+Initiating NSE at 00:45
+Completed NSE at 00:45, 0.00s elapsed
+Nmap scan report for 10.200.24.219
+Host is up, received syn-ack (0.099s latency).
+Scanned at 2020-09-06 00:44:00 UTC for 97s
+
+PORT      STATE SERVICE       REASON  VERSION
+22/tcp    open  ssh           syn-ack OpenSSH for_Windows_7.7 (protocol 2.0)
+| ssh-hostkey: 
+|   2048 85:b8:1f:80:46:3d:91:0f:8c:f2:f2:3f:5c:87:67:72 (RSA)
+| ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCnKjeLuGU2zxdCn6Sp+VdhgCN7iZFY04nx9G/O3bO2DXiahD7QIjXecH1/wvU/E8KjjJ6WtC1Brcy6N7y3y+JgWJXMP16zdcpvN5MojHEWqhynwsgyeH72tkb2yA1w/BPdAXLM/WJPg7A+ijb9K+O9E7gki1AaTClOnus2SjoVDnfBct9H3vcXjyOxHDsET/IJhf0h5dzA/aU+haHi/eCLCgs/rg+Nvy3fUG9gjwX1rmvp0cNfc9EPF3VLDZXHvxpp0yZZ/+PYICED3wwZvJgtMea7QugGlVYC/2kPwbmye9Jv3flntlY5oocKDL0b0NsQyWLKksdtYHy65VmVS6Ct
+|   256 5c:0d:46:e9:42:d4:4d:a0:36:d6:19:e5:f3:ce:49:06 (ECDSA)
+| ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBEDoOfGWQuloN4GyUbPxCdLJOFotYm8sm0n7/1zXvnMgce5kGr96+NltWlA8sI5ft8wKwbc1alfhFi290bL9TSY=
+|   256 e2:2a:cb:39:85:0f:73:06:a9:23:9d:bf:be:f7:50:0c (ED25519)
+|_ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIIXGLApUD1SJY4lBgAv6SHPtSBL9r4WWNdiZlNFSZulT
+80/tcp    open  http          syn-ack Microsoft IIS httpd 10.0
+| http-methods: 
+|   Supported Methods: OPTIONS TRACE GET HEAD POST
+|_  Potentially risky methods: TRACE
+|_http-server-header: Microsoft-IIS/10.0
+|_http-title: Throwback Hacks
+135/tcp   open  msrpc         syn-ack Microsoft Windows RPC
+139/tcp   open  netbios-ssn   syn-ack Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds? syn-ack
+3389/tcp  open  ms-wbt-server syn-ack Microsoft Terminal Services
+| rdp-ntlm-info: 
+|   Target_Name: THROWBACK
+|   NetBIOS_Domain_Name: THROWBACK
+|   NetBIOS_Computer_Name: THROWBACK-PROD
+|   DNS_Domain_Name: THROWBACK.local
+|   DNS_Computer_Name: THROWBACK-PROD.THROWBACK.local
+|   DNS_Tree_Name: THROWBACK.local
+|   Product_Version: 10.0.17763
+|_  System_Time: 2020-09-06T00:44:57+00:00
+| ssl-cert: Subject: commonName=THROWBACK-PROD.THROWBACK.local
+| Issuer: commonName=THROWBACK-PROD.THROWBACK.local
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2020-07-27T22:26:10
+| Not valid after:  2021-01-26T22:26:10
+| MD5:   5ea4 baab f267 132f 37a0 9c26 6be5 3bec
+| SHA-1: b058 ec84 df89 f60d 8c99 705a dbca e5c5 e0be b825
+| -----BEGIN CERTIFICATE-----
+| MIIDADCCAeigAwIBAgIQbzNHxupmNodGpg0uLuE+eDANBgkqhkiG9w0BAQsFADAp
+| MScwJQYDVQQDEx5USFJPV0JBQ0stUFJPRC5USFJPV0JBQ0subG9jYWwwHhcNMjAw
+| NzI3MjIyNjEwWhcNMjEwMTI2MjIyNjEwWjApMScwJQYDVQQDEx5USFJPV0JBQ0st
+| UFJPRC5USFJPV0JBQ0subG9jYWwwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEK
+| AoIBAQDlxGzNqOfjd4wQJnj6cl02VO1JfWnaz3niK760dQSRz08VL9iYd+y0rdfI
+| QXYSEAsOwC2i/9Pl8M1Yo/c+gyzW/qSM2nS/g6i+2w01xE8MA7VEtshlYdiUot0D
+| m3ZUaAGkJXkeXmlixFBdfnZ+LjK+7KVZoif/CmJgE1NrtLUbE50dz8D5TE9sAIfj
+| KXrYe2vdL0WmJPMYBdiKvri83Rc3FS7ImRd6TpCZOgjZecjnOaYpxN/gtknVrR8J
+| 5JTsxtIFSgC10mdGQb1zpddHggKc2uF+Y+Oax25SKl+sIodefw9x5ct2/F2R4TKJ
+| KB+GNoo7HDv6RURci6A9sTCZEwldAgMBAAGjJDAiMBMGA1UdJQQMMAoGCCsGAQUF
+| BwMBMAsGA1UdDwQEAwIEMDANBgkqhkiG9w0BAQsFAAOCAQEAAjlPKalIH4pdgDJS
+| DD5vUJqQOecvxcVe32YKIYVNHW5/596+cyKisl1meqTUzu5Ob7uvn+Y+041ua1ml
+| WOswyHunD+rURGnar/ETnHUBg1YYayvdJDUHiUQIPTn+aNO7SK4EStwtfZHtJQd/
+| A9i9yS/RyxUkhvMH6bTz0gJ87nxyndEYhNQiqBgdECeJjNM84DZQpO/g8RSZgqw9
+| 465xVSe0oaFdInkg4da6WYvBzZ9A8WLGSIxXvyTrA4cCVSHgDq4dNRHcjpfDAGOV
+| hqAeB2BreBErkN9fB9YLo/r5sQhHPUddJpHr7dMD+G9g+PaVk4sGF8VtRnQJaxXf
+| O+NbNg==
+|_-----END CERTIFICATE-----
+|_ssl-date: 2020-09-06T00:45:36+00:00; -1s from scanner time.
+5357/tcp  open  http          syn-ack Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-server-header: Microsoft-HTTPAPI/2.0
+|_http-title: Service Unavailable
+5985/tcp  open  http          syn-ack Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-server-header: Microsoft-HTTPAPI/2.0
+|_http-title: Not Found
+49667/tcp open  msrpc         syn-ack Microsoft Windows RPC
+49669/tcp open  msrpc         syn-ack Microsoft Windows RPC
+49673/tcp open  msrpc         syn-ack Microsoft Windows RPC
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: 0s, deviation: 0s, median: 0s
+| p2p-conficker: 
+|   Checking for Conficker.C or higher...
+|   Check 1 (port 42648/tcp): CLEAN (Timeout)
+|   Check 2 (port 13230/tcp): CLEAN (Timeout)
+|   Check 3 (port 18526/udp): CLEAN (Timeout)
+|   Check 4 (port 55899/udp): CLEAN (Timeout)
+|_  0/4 checks are positive: Host is CLEAN or ports are blocked
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2020-09-06T00:45:01
+|_  start_date: N/A
+
+NSE: Script Post-scanning.
+NSE: Starting runlevel 1 (of 3) scan.
+Initiating NSE at 00:45
+Completed NSE at 00:45, 0.00s elapsed
+NSE: Starting runlevel 2 (of 3) scan.
+Initiating NSE at 00:45
+Completed NSE at 00:45, 0.00s elapsed
+NSE: Starting runlevel 3 (of 3) scan.
+Initiating NSE at 00:45
+Completed NSE at 00:45, 0.00s elapsed
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 97.81 seconds
+[1;34m[~][0m Starting Nmap
+[1;38;2;0;255;9m[>][0m The Nmap command to be run is nmap -A -vvv -p 53,80 10.200.24.138
+
+Starting Nmap 7.80 ( https://nmap.org ) at 2020-09-06 00:45 UTC
+NSE: Loaded 151 scripts for scanning.
+NSE: Script Pre-scanning.
+NSE: Starting runlevel 1 (of 3) scan.
+Initiating NSE at 00:45
+Completed NSE at 00:45, 0.00s elapsed
+NSE: Starting runlevel 2 (of 3) scan.
+Initiating NSE at 00:45
+Completed NSE at 00:45, 0.00s elapsed
+NSE: Starting runlevel 3 (of 3) scan.
+Initiating NSE at 00:45
+Completed NSE at 00:45, 0.00s elapsed
+Initiating Ping Scan at 00:45
+Scanning 10.200.24.138 [2 ports]
+Completed Ping Scan at 00:45, 0.10s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 00:45
+Completed Parallel DNS resolution of 1 host. at 00:45, 0.02s elapsed
+DNS resolution of 1 IPs took 0.02s. Mode: Async [#: 2, OK: 0, NX: 1, DR: 0, SF: 0, TR: 1, CN: 0]
+Initiating Connect Scan at 00:45
+Scanning 10.200.24.138 [2 ports]
+Discovered open port 53/tcp on 10.200.24.138
+Discovered open port 80/tcp on 10.200.24.138
+Completed Connect Scan at 00:45, 0.10s elapsed (2 total ports)
+Initiating Service scan at 00:45
+Scanning 2 services on 10.200.24.138
+Completed Service scan at 00:46, 21.31s elapsed (2 services on 1 host)
+NSE: Script scanning 10.200.24.138.
+NSE: Starting runlevel 1 (of 3) scan.
+Initiating NSE at 00:46
+Completed NSE at 00:46, 8.44s elapsed
+NSE: Starting runlevel 2 (of 3) scan.
+Initiating NSE at 00:46
+Completed NSE at 00:46, 0.41s elapsed
+NSE: Starting runlevel 3 (of 3) scan.
+Initiating NSE at 00:46
+Completed NSE at 00:46, 0.00s elapsed
+Nmap scan report for 10.200.24.138
+Host is up, received syn-ack (0.098s latency).
+Scanned at 2020-09-06 00:45:38 UTC for 31s
+
+PORT   STATE SERVICE REASON  VERSION
+53/tcp open  domain  syn-ack (generic dns response: REFUSED)
+80/tcp open  http    syn-ack nginx
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-title: Did not follow redirect to https://10.200.24.138/
+|_https-redirect: ERROR: Script execution failed (use -d to debug)
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port53-TCP:V=7.80%I=7%D=9/6%Time=5F54313E%P=x86_64-alpine-linux-musl%r(
+SF:DNSVersionBindReqTCP,E,"\0\x0c\0\x06\x81\x05\0\0\0\0\0\0\0\0")%r(DNSSta
+SF:tusRequestTCP,E,"\0\x0c\0\0\x90\x05\0\0\0\0\0\0\0\0");
+
+NSE: Script Post-scanning.
+NSE: Starting runlevel 1 (of 3) scan.
+Initiating NSE at 00:46
+Completed NSE at 00:46, 0.00s elapsed
+NSE: Starting runlevel 2 (of 3) scan.
+Initiating NSE at 00:46
+Completed NSE at 00:46, 0.00s elapsed
+NSE: Starting runlevel 3 (of 3) scan.
+Initiating NSE at 00:46
+Completed NSE at 00:46, 0.00s elapsed
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 31.63 seconds

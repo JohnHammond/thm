@@ -1,0 +1,20 @@
+- Nikto v2.1.5
+---------------------------------------------------------------------------
++ Target IP:          10.200.24.219
++ Target Hostname:    10.200.24.219
++ Target Port:        80
++ Start Time:         2020-09-05 20:50:42 (GMT-4)
+---------------------------------------------------------------------------
++ Server: Microsoft-IIS/10.0
++ Server leaks inodes via ETags, header found with file /, fields: 0xf55f419f7c7cd61:0 
++ The anti-clickjacking X-Frame-Options header is not present.
++ No CGI Directories found (use '-C all' to force check all possible dirs)
++ Server banner has changed from 'Microsoft-IIS/10.0' to 'Microsoft-HTTPAPI/2.0' which may suggest a WAF, load balancer or proxy is in place
++ Allowed HTTP Methods: OPTIONS, TRACE, GET, HEAD, POST 
++ Public HTTP Methods: OPTIONS, TRACE, GET, HEAD, POST 
++ Retrieved x-powered-by header: PHP/7.4.1
++ OSVDB-3233: /phpinfo.php: Contains PHP configuration information
++ 6544 items checked: 0 error(s) and 6 item(s) reported on remote host
++ End Time:           2020-09-05 21:02:08 (GMT-4) (686 seconds)
+---------------------------------------------------------------------------
++ 1 host(s) tested

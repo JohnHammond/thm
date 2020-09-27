@@ -1,0 +1,131 @@
+# Nmap 7.80 scan initiated Sat Sep  5 20:39:51 2020 as: nmap -v -sC -sV -oN nmap/initial 10.200.24.0/24
+Nmap scan report for 10.200.24.138
+Host is up (0.098s latency).
+Not shown: 996 filtered ports
+PORT    STATE SERVICE  VERSION
+22/tcp  open  ssh      OpenSSH 7.5 (protocol 2.0)
+| ssh-hostkey: 
+|_  4096 38:04:a0:a1:d0:e6:ab:d9:7d:c0:da:f3:66:bf:77:15 (RSA)
+53/tcp  open  domain   (generic dns response: REFUSED)
+80/tcp  open  http     nginx
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-title: Did not follow redirect to https://10.200.24.138/
+|_https-redirect: ERROR: Script execution failed (use -d to debug)
+443/tcp open  ssl/http nginx
+|_http-favicon: Unknown favicon MD5: 5567E9CE23E5549E0FCD7195F3882816
+|_http-title: pfSense - Login
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port53-TCP:V=7.80%I=7%D=9/5%Time=5F543028%P=x86_64-pc-linux-gnu%r(DNSVe
+SF:rsionBindReqTCP,E,"\0\x0c\0\x06\x81\x05\0\0\0\0\0\0\0\0")%r(DNSStatusRe
+SF:questTCP,E,"\0\x0c\0\0\x90\x05\0\0\0\0\0\0\0\0");
+
+Nmap scan report for 10.200.24.183
+Host is up (0.098s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 07:a8:c3:3b:0a:54:a0:40:83:11:67:1c:24:82:63:e9 (RSA)
+|   256 50:77:3f:cc:5b:6a:06:d4:1f:6b:16:85:b2:5c:74:2a (ECDSA)
+|_  256 73:11:bf:99:38:49:96:0c:3c:5b:82:6e:a3:1d:3c:54 (ED25519)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for 10.200.24.219
+Host is up (0.099s latency).
+Not shown: 993 filtered ports
+PORT     STATE SERVICE       VERSION
+22/tcp   open  ssh           OpenSSH for_Windows_7.7 (protocol 2.0)
+| ssh-hostkey: 
+|   2048 85:b8:1f:80:46:3d:91:0f:8c:f2:f2:3f:5c:87:67:72 (RSA)
+|   256 5c:0d:46:e9:42:d4:4d:a0:36:d6:19:e5:f3:ce:49:06 (ECDSA)
+|_  256 e2:2a:cb:39:85:0f:73:06:a9:23:9d:bf:be:f7:50:0c (ED25519)
+80/tcp   open  http          Microsoft IIS httpd 10.0
+| http-methods: 
+|   Supported Methods: OPTIONS TRACE GET HEAD POST
+|_  Potentially risky methods: TRACE
+|_http-server-header: Microsoft-IIS/10.0
+|_http-title: Throwback Hacks
+135/tcp  open  msrpc         Microsoft Windows RPC
+139/tcp  open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp  open  microsoft-ds?
+3389/tcp open  ms-wbt-server Microsoft Terminal Services
+| rdp-ntlm-info: 
+|   Target_Name: THROWBACK
+|   NetBIOS_Domain_Name: THROWBACK
+|   NetBIOS_Computer_Name: THROWBACK-PROD
+|   DNS_Domain_Name: THROWBACK.local
+|   DNS_Computer_Name: THROWBACK-PROD.THROWBACK.local
+|   DNS_Tree_Name: THROWBACK.local
+|   Product_Version: 10.0.17763
+|_  System_Time: 2020-09-06T00:41:24+00:00
+| ssl-cert: Subject: commonName=THROWBACK-PROD.THROWBACK.local
+| Issuer: commonName=THROWBACK-PROD.THROWBACK.local
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2020-07-27T22:26:10
+| Not valid after:  2021-01-26T22:26:10
+| MD5:   5ea4 baab f267 132f 37a0 9c26 6be5 3bec
+|_SHA-1: b058 ec84 df89 f60d 8c99 705a dbca e5c5 e0be b825
+|_ssl-date: 2020-09-06T00:42:55+00:00; 0s from scanner time.
+5357/tcp open  http          Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-server-header: Microsoft-HTTPAPI/2.0
+|_http-title: Service Unavailable
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2020-09-06T00:41:24
+|_  start_date: N/A
+
+Nmap scan report for 10.200.24.232
+Host is up (0.098s latency).
+Not shown: 996 closed ports
+PORT    STATE SERVICE  VERSION
+22/tcp  open  ssh      OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 67:de:3e:b7:92:10:68:f8:bc:0c:39:fa:a0:5d:4d:d2 (RSA)
+|   256 20:dc:23:50:4c:fa:56:03:8b:89:6d:77:f4:0b:35:ea (ECDSA)
+|_  256 5b:5c:ca:53:92:cb:cb:73:04:03:08:95:35:5d:f7:d8 (ED25519)
+80/tcp  open  http     Apache httpd 2.4.29 ((Ubuntu))
+|_http-favicon: Unknown favicon MD5: 2D267521ED544C817FADA219E66C0CCC
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-server-header: Apache/2.4.29 (Ubuntu)
+| http-title: Throwback Hacks - Login
+|_Requested resource was src/login.php
+143/tcp open  imap     Dovecot imapd (Ubuntu)
+|_imap-capabilities: SASL-IR more LITERAL+ have post-login IDLE listed capabilities Pre-login STARTTLS LOGINDISABLEDA0001 OK IMAP4rev1 LOGIN-REFERRALS ID ENABLE
+| ssl-cert: Subject: commonName=ip-10-40-119-232.eu-west-1.compute.internal
+| Subject Alternative Name: DNS:ip-10-40-119-232.eu-west-1.compute.internal
+| Issuer: commonName=ip-10-40-119-232.eu-west-1.compute.internal
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2020-07-25T15:51:57
+| Not valid after:  2030-07-23T15:51:57
+| MD5:   adc4 c6e2 d74f d9eb ccde 96aa 5780 bb69
+|_SHA-1: 93aa 5da0 3829 8ca3 aa6b f148 4f92 1ed0 c568 a942
+|_ssl-date: TLS randomness does not represent time
+993/tcp open  ssl/imap Dovecot imapd (Ubuntu)
+|_imap-capabilities: SASL-IR LITERAL+ more AUTH=PLAINA0001 IDLE have post-login listed capabilities Pre-login OK IMAP4rev1 LOGIN-REFERRALS ID ENABLE
+| ssl-cert: Subject: commonName=ip-10-40-119-232.eu-west-1.compute.internal
+| Subject Alternative Name: DNS:ip-10-40-119-232.eu-west-1.compute.internal
+| Issuer: commonName=ip-10-40-119-232.eu-west-1.compute.internal
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2020-07-25T15:51:57
+| Not valid after:  2030-07-23T15:51:57
+| MD5:   adc4 c6e2 d74f d9eb ccde 96aa 5780 bb69
+|_SHA-1: 93aa 5da0 3829 8ca3 aa6b f148 4f92 1ed0 c568 a942
+|_ssl-date: TLS randomness does not represent time
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Sep  5 20:43:57 2020 -- 256 IP addresses (4 hosts up) scanned in 245.92 seconds
