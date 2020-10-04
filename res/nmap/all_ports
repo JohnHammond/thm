@@ -1,0 +1,16 @@
+# Nmap 7.80 scan initiated Sun Oct  4 16:37:30 2020 as: nmap -p- -sC -sV -oN nmap/all_ports 10.10.196.130
+Nmap scan report for 10.10.196.130
+Host is up (0.22s latency).
+Scanned at 2020-10-04 16:37:31 EDT for 1487s
+Not shown: 65533 closed ports
+PORT     STATE SERVICE VERSION
+80/tcp   open  http    Apache httpd 2.4.18 ((Ubuntu))
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-server-header: Apache/2.4.18 (Ubuntu)
+|_http-title: Apache2 Ubuntu Default Page: It works
+6379/tcp open  redis   Redis key-value store 6.0.7
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Oct  4 17:02:18 2020 -- 1 IP address (1 host up) scanned in 1487.75 seconds
