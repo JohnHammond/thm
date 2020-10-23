@@ -1,0 +1,15 @@
+===============================================================
+Gobuster v3.0.1
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@_FireFart_)
+===============================================================
+[+] Url:            http://10.10.196.45/cgi-bin/
+[+] Threads:        10
+[+] Wordlist:       /opt/directory-list-lowercase-2.3-medium.txt
+[+] Status codes:   200,204,301,302,307,401,403
+[+] User Agent:     gobuster/3.0.1
+[+] Extensions:     sh,cgi,txt,log
+[+] Timeout:        10s
+===============================================================
+2020/10/23 17:26:05 Starting gobuster
+===============================================================
+/test.cgi (Status: 200)

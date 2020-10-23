@@ -1,0 +1,15 @@
+===============================================================
+Gobuster v3.0.1
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@_FireFart_)
+===============================================================
+[+] Url:            http://10.10.196.45/uploads/
+[+] Threads:        10
+[+] Wordlist:       /opt/directory-list-lowercase-2.3-medium.txt
+[+] Status codes:   200,204,301,302,307,401,403
+[+] User Agent:     gobuster/3.0.1
+[+] Extensions:     html,php.jpg,png,sh,cgi,txt,log
+[+] Timeout:        10s
+===============================================================
+2020/10/23 17:27:52 Starting gobuster
+===============================================================
+/index.html (Status: 200)
